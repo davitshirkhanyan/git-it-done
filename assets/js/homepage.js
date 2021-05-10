@@ -102,7 +102,6 @@ let getFeaturedRepos = function(language) {
 
 let buttonClickHandler = function(event) {
     let language = event.target.getAttribute("data-language");
-    console.log(language);
     if(language) {
         getFeaturedRepos(language);
 
